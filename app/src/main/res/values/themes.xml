@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.GuessTheCountry" parent="Theme.MaterialComponents.DayNight.Bridge">
+
+    </style>
+    <style name="Theme.GuessTheCountry.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
