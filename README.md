@@ -1,7 +1,7 @@
 <h1>Guess The Country Android 1.0.0</h1>
 
-<ol>
-  <ul>
+<ul>
+  <li>
     <h4>
       This application is developed using:
     </h4>
@@ -10,31 +10,31 @@
         <li>kotlin v2.3.10</li>
         <li>java v21</li>
       </ol>
-  </ul>
-  <ul>
+  </li>
+  <li>
     <h4>
       This application is <b>activity based</b>, whereby each activity is derived from the <b>ComponentActivity class</b> and each activity has different <b>content layout view</b>.
     </h4>
-  </ul>
-  <ul>
+  </li>
+  <li>
     <h4>
       Navigating each activity using <b>Intent class</b>.
     </h4>
-  </ul>
-</ol>
+  </li>
+</ul>
 
 <h1>Application Snapshots</h1>
-<ol>
-  <h4>Home Page</h4>
-  <img src="src/home.png" height="400" width="200">
-</ol>
-
-<ol>
-  <h4>Each Quiz Page</h4>
-  <img src="src/quiz.png" height="400" width="200">
-</ol>
-
-<ol>
-  <h4>Congratulations page</h4>
-  <img src="src/congratulations.png" height="400" width="200">
-</ol>
+<ul>
+  <li>
+    <h4>Home Page</h4>
+    <img src="src/home.png" height="400" width="200">
+  </li>
+  <li>
+    <h4>Each Quiz Page</h4>
+    <img src="src/quiz.png" height="400" width="200">
+  </li>
+  <li>
+    <h4>Congratulations page</h4>
+    <img src="src/congratulations.png" height="400" width="200">
+  </li>
+</ul>
