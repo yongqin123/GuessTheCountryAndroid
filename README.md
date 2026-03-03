@@ -12,4 +12,4 @@
 </h4> 
   
 <h3>Home Page</h3>
-![Banner](src/home.png?raw=true)
+<img src="src/home.png" height="400" width="200">
