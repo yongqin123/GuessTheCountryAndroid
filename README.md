@@ -8,8 +8,18 @@
       <li>java v21</li>
     </ol>
 <h4>
-  This application is <b>activity based</b>, whereby each activity is derived from the <b>ComponentActivity class</b> and each activity has different <b>content layout view</b>. Navigating each activity using <b>Intent class</b>.
+  This application is <b>activity based</b>, whereby each activity is derived from the <b>ComponentActivity class</b> and each activity has different <b>content layout view</b>.
+</h4>
+<h4>
+  Navigating each activity using <b>Intent class</b>.
 </h4> 
-  
-<h3>Home Page</h3>
+
+<h1>Application Snapshots</h1>
+<h2>Home Page</h2>
 <img src="src/home.png" height="400" width="200">
+
+<h2>Each Quiz Page</h2>
+<img src="src/quiz.png" height="400" width="200">
+
+<h2>Congratulations page</h2>
+<img src="src/congratulations.png" height="400" width="200">
