@@ -30,11 +30,11 @@
     <img src="src/home.png" height="400" width="200">
   </li>
   <li>
-    <h4>Each Quiz Page</h4>
+    <h4>Quiz Page</h4>
     <img src="src/quiz.png" height="400" width="200">
   </li>
   <li>
-    <h4>Congratulations page</h4>
+    <h4>Congratulations Page</h4>
     <img src="src/congratulations.png" height="400" width="200">
   </li>
 </ul>
