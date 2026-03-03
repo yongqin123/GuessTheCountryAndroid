@@ -7,9 +7,9 @@
       <li>kotlin v2.3.10</li>
       <li>java v21</li>
     </ol>
-
-  <br><br>
-  This application is activity based, whereby each activity is derived from the ComponentActivity class and each activity has different content layout view.<br><br>Each activity is being navigated using the Intent class. 
+<h4>
+  This application is activity based, whereby each activity is derived from the ComponentActivity class and each activity has different content layout view. Navigating each activity using Intent class.
+</h4> 
   
 
 
