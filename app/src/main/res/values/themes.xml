@@ -4,9 +4,23 @@
     <style name="Theme.GuessTheCountry" parent="Theme.MaterialComponents.DayNight.Bridge">
 
     </style>
+
     <style name="Theme.GuessTheCountry.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.GuessTheCountry.NoActionBar.Fullscreen" parent="Theme.GuessTheCountry.NoActionBar">
+        <item name="android:actionBarStyle">
+            @style/Widget.Theme.GuessTheCountry.NoActionBar.ActionBar.Fullscreen
+        </item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="ThemeOverlay.GuessTheCountry.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
     </style>
 </resources>

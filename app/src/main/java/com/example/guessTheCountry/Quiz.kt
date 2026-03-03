@@ -1,5 +1,6 @@
 package com.example.guessTheCountry
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -8,6 +9,9 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.activity.ComponentActivity
 import androidx.core.content.ContextCompat
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.WindowInsetsControllerCompat
 import androidx.core.widget.NestedScrollView
 import com.example.guessTheCountry.modal.Question
 import com.example.guessTheCountry.utils.Constants
@@ -32,6 +36,19 @@ class Quiz : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            val windowInsetsController = ViewCompat.getWindowInsetsController(window.decorView) ?: return
+            // Configure the behavior of the hidden system bars
+            windowInsetsController.systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+            // Hide both the status bar and the navigation bar
+            windowInsetsController.hide(WindowInsetsCompat.Type.systemBars())
+        }else{
+            val flags =
+                (View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                        or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or View.SYSTEM_UI_FLAG_FULLSCREEN or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY)
+            window!!.decorView.setSystemUiVisibility(flags)
+        }
         allQuestions = Constants.getQuestions()
         title = findViewById<TextView>(R.id.question)
         optionOne = findViewById<Button>(R.id.optionOne)
