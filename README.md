@@ -8,7 +8,7 @@
       <li>java v21</li>
     </ol>
 <h4>
-  This application is activity based, whereby each activity is derived from the ComponentActivity class and each activity has different content layout view. Navigating each activity using Intent class.
+  This application is <b>activity based</b>, whereby each activity is derived from the <b>ComponentActivity class</b> and each activity has different <b>content layout view</b>. Navigating each activity using <b>Intent class</b>.
 </h4> 
   
 
