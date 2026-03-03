@@ -3,9 +3,9 @@
 <h4>
   This application is developed using </h4>
     <li>
-      <ol>Android Studio Otter 2025.2.1.8</ol>
-      <ol>kotlin v2.3.10</ol>
-      <ol>java v21</ol>
+      <ul>Android Studio Otter 2025.2.1.8</ul>
+      <ul>kotlin v2.3.10</ul>
+      <ul>java v21</ul>
     </li>
 
   <br><br>
