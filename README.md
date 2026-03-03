@@ -24,17 +24,17 @@
 </ul>
 
 <h1>Application Snapshots</h1>
-<ul>
+<ul style="display: inline">
   <li style="display: inline">
     <h4>Home Page</h4>
-    <img src="src/home.png" height="400" width="200">
+    <img style="display: inline" src="src/home.png" height="400" width="200">
   </li>
   <li style="display: inline">
     <h4>Quiz Page</h4>
-    <img src="src/quiz.png" height="400" width="200">
+    <img style="display: inline" src="src/quiz.png" height="400" width="200">
   </li>
   <li style="display: inline">
     <h4>Congratulations Page</h4>
-    <img src="src/congratulations.png" height="400" width="200">
+    <img style="display: inline" src="src/congratulations.png" height="400" width="200">
   </li>
 </ul>
