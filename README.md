@@ -12,4 +12,4 @@
 </h4> 
   
 <h3>Home Page</h3>
-<img width="800" height="800" src="/src/home.png" />
+<img width="400" height="400" src="/src/home.png" >
